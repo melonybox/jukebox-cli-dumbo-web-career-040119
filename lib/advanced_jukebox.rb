@@ -15,9 +15,18 @@
 def help
   stuff = ['I accept the following commands:','- help : displays this help message','- list : displays a list of songs you can play','- play : lets you choose a song to play','- exit : exits this program']
   
+<<<<<<< HEAD
   stuff.each do |x|
     puts x
   end
+=======
+  counter = 0
+  until counter == stuff.size
+    puts stuff
+    counter += 1
+  end
+
+>>>>>>> b37f4a02ed7500c9e915f64ef5ce9810d5191786
 end
 
 
